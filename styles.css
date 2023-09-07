@@ -21,6 +21,8 @@ body{
 
 .container{
     background: url(./images/bg-pattern-top.svg), url(./images/bg-pattern-bottom.svg);
+    background-position: -63% -85%, 145% 240%;
+    background-repeat: no-repeat; 
     background-color: var(--Dark-cyan);
     min-height: 100vh;
     display: flex;
@@ -55,6 +57,7 @@ body{
     display: block;
     height: auto;
     width: 100%;
+    position: absolute;
 }
 
 .activities{
@@ -71,9 +74,11 @@ body{
     font-weight: 400;
 }
 .activities{
-   padding-right: 40px;
-   padding-left: 40px;
-   margin-top: 23px;
+   padding-right: 20px;
+   padding-left: 20px;
+   padding-top: 20px;
+   padding-bottom: 20px;
+   margin-top: 40px;
    border-top: 1px solid var(--Dark-gray);
    display: flex;
    align-items: center;
